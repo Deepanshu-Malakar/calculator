@@ -5,6 +5,7 @@ from PIL import Image
 
 root=CTk()
 root.title("My Calculator")
+root.iconbitmap(r"images\favicon.ico")
 set_appearance_mode("light")
 set_default_color_theme("green")
 pywinstyles.apply_style(root,"acrylic")
