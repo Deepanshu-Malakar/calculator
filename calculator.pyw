@@ -4,7 +4,7 @@ from customtkinter import *
 from PIL import Image
 
 root=CTk()
-root.title="My Calculator"
+root.title("My Calculator")
 set_appearance_mode("light")
 set_default_color_theme("green")
 pywinstyles.apply_style(root,"acrylic")
